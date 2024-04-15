@@ -1,0 +1,2 @@
+# requirements.txt
+pymongo==3.12.0
