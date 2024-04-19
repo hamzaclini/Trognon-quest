@@ -270,7 +270,7 @@ def user_input_features():
         #study = st.sidebar.selectbox("Niveau d'etude",('CAP/BEP','Baccalauréat professionnel','Baccalauréat général', 'Bac +2 (DUT/BTS)', 'Bac +3 (Licence)',
         #                                               'Bac +5 (Master)', 'Bac +7 (Doctorat, écoles supérieurs)'))
         #questionnaire = st.sidebar.selectbox('Questionnaire',('TRAQ','FAST','TRAQ+FAST'))
-        #st.write("""## Concernant mon utilisation de la planche de transfert:""")
+        st.write("""## Veuillez lire chaque affirmation et indiquer par : Jamais, Parfois ou Tout le temps, si elle décrit l'enfant:""")
         for i, question in enumerate(Comp, start=1):
             slider_output = st.select_slider(
             f"{question}",
